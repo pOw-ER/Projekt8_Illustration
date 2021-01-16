@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap');
+
+/* font-family: 'Merriweather', serif;
+Farbe: #202020, #24bff2, #fff, #F5FBFE.
+Farbe social media: #3b5998, #fcaf45, #55acee, #c4302b
+ */
+
+body {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+main section {
+  padding: 50px 100px;
+  margin-bottom: 150px;
+
+}
+section#section1 {
+  background: url('../img/lightmode/illustration1.gif') right/contain no-repeat;
+}
+section#section2 {
+  background: url('../img/lightmode/illustration2.png') left/contain no-repeat;
+}
+section#section3 {
+  background: url('../img/lightmode/illustration3.png') right/contain no-repeat;
+}
+nav ul {
+  list-style: none;
+  text-align: right;
+}
+
+nav ul li {
+ display: inline-block;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #202020;
+  padding-right: 20px;
+}
+
+h1,p,a {
+  font-family: 'Merriweather', serif;
+}
+
+.right {
+  text-align: right;
+  margin-left: auto;
+}
+.center {
+  text-align: center;
+  margin: 0 auto;
+}
+.headline {
+  font-size: 60px;
+  width: 50%;
+  font-weight: 400;
+}
+.paragraph {
+  width: 45%;
+  font-size: 25px;
+  line-height: 40px;
+  color: #20202090;
+  margin-top: 30px;
+}
+#downloadButton {
+  text-decoration: none;
+  color: white;
+  background-color: black;
+  padding: 15px 20px ;
+  border-radius: 5px;
+}
+
+#subscribeButton{
+  text-decoration: none;
+  color: black;
+  background-color: white;
+  padding: 15px 20px ;
+  border: 1px solid #20202040;
+  border-radius: 5px;
+}
+
+#p4 {
+  width: 80%;
+}
+
+#headline4 {
+  width: 70%;
+  margin-top: 100px;
+}
+
+#small_img_div {
+  margin-top: 100px;
+}
+
+.small_img {
+  display: inline-block;
+  width: 32%;
+}
+
+#big_img_div {
+  margin-top: 100px;
+}
+
+.big_img {
+  display: inline-block;
+  padding: 20px;
+  width: 45%;
+}
+
+#headline6 {
+  width: 60%;
+}
+#p6 {
+  width: 60%;
+}
+
+#memberShip {
+  margin-top: 50px;
+  padding: 50px 20px;
+  width: 20%;
+  background-color: #24bff210;
+  border-radius: 5px;
+}
+
+#memberShip p {
+  font-size: 12px;
+  margin: 5px;
+}
+#memberShip p:last-of-type {
+  font-size: 12px;
+  margin-bottom: 35px;
+}
+
+#becomeMemberButton {
+  text-decoration: none;
+  color: white;
+  padding: 15px 50px;
+  background-color: #24bff2;
+  border-radius: 5px;
+  font-size: 12px;
+}
+
+#headline7 {
+  width: 60%;
+  margin-bottom: 50px;
+}
+
+h2 {
+  font-size: 60px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+  color: #00000040;
+}
+h5 {
+  margin-bottom: 50px;
+  color: #00000040;
+  font-size: 15px;
+}
