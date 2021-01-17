@@ -5,17 +5,22 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Illustrations</title>
+  <!-- CSS VERLINKUNG  -->
   <link rel="stylesheet" href="./assets/css/style.css">
+  <!-- FONT AWESOME CDN  -->
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
 </head>
 
 <body>
   <nav>
     <ul>
-      <li><a href="">WHY?</a></li>
-      <li><a href="">ILLUSTRATION</a></li>
-      <li><a href="">BUY</a></li>
+      <li><a href="#">WHY?</a></li>
+      <li><a href="#">ILLUSTRATION</a></li>
+      <li><a href="#">BUY</a></li>
     </ul>
   </nav>
+  <span onclick="darkLightToggle()" id="darkModeButton"><i class="fas fa-moon"></i></span>
   <main>
     <section id="section1">
       <h1 id="headline1" class="headline">absurd illustrations that make sense</h1>
@@ -65,7 +70,6 @@
         <img src="./assets/img/lightmode/illustration11.jpg" alt="" id="big_img5" class="big_img">
         <img src="./assets/img/lightmode/illustration12.jpg" alt="" id="big_img6" class="big_img">
       </div>
-
     </section>
     <section id="section6">
       <h1 id="headline6" class="headline center">download illustrations</h1>
@@ -92,13 +96,19 @@
   </main>
   <footer>
     <h1 id="headline7" class="headline center">any absurd suggestions?</h1>
-    <h5 class="center">Email</h5>
-    <p class="center">super@super.de</p>
-    <h5 class="center">Follow me</h5>
-    <a href="" class="center"></a>
-    <a href="" class="center"></a>
-    <a href="" class="center"></a>
-    <a href="" class="center"></a>
+    <h5 id="firstH5" class="center">Email</h5>
+    <p id="pTagEmail" class="center"><a href="mailto:super@super.de" id="email">super@super.de</a></p>
+    <h5 id="secondH5" class="center">Follow me</h5>
+    <div id="icons_div">
+      <a href="https://www.facebook.com" target="_blank" id="facebook" class="center icons"><i
+          class="fab fa-facebook-f"></i></a>
+      <a href="https://www.instagram.com" target="_blank" id="instagram" class="center icons"><i
+          class="fab fa-instagram"></i></a>
+      <a href="https://www.twitter.com" target="_blank" id="twitter" class="center icons"><i
+          class="fab fa-twitter"></i></a>
+      <a href="https://www.youtube.com" target="_blank" id="youtube" class="center icons"><i
+          class="fab fa-youtube"></i></a>
+    </div>
   </footer>
 
 
