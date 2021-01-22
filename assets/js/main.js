@@ -1,4 +1,3 @@
-
 let darkLightButton = document.getElementById('darkModeButton')
 let h5 = document.querySelectorAll('h5')
 let p1 = document.getElementById('p1')

@@ -2,7 +2,6 @@
 
 /* font-family: 'Merriweather', serif;
 Farbe: #202020, #24bff2, #fff, #F5FBFE.
-Farbe social media: #3b5998, #fcaf45, #55acee, #c4302b
  */
 html {
   scroll-behavior: smooth;
@@ -108,7 +107,7 @@ h1,p,a {
 .small_img {
   display: inline-block;
   width: 30%;
-  padding: 10px;
+  margin: 10px;
 }
 
 #p5 {
@@ -121,7 +120,7 @@ h1,p,a {
 
 .big_img {
   display: inline-block;
-  padding: 20px;
+  margin: 20px;
   width: 45%;
 }
 
@@ -184,17 +183,6 @@ footer h5 {
   margin: 30px 0;
 }
 
-.icons {
-  display: inline-block;
-  text-decoration: none;
-  font-size: 40px;
-  padding: 0px 20px;
-}
-.icons:hover {
-  border: 1px solid #000;
-  border-radius: 60px;
-}
-
 #facebook {
   color: #3b5998;
 }
@@ -208,6 +196,16 @@ footer h5 {
   color: #c4302b;
 }
 
+.icons {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 40px;
+  padding: 0px 20px;
+}
+.icons:hover #facebook {
+  color: #fffb00;
+}
+
 #email {
   text-decoration: none;
   color: black;
@@ -216,6 +214,7 @@ footer h5 {
 .darkMode {
   background-color: #000 !IMPORTANT;
   color: white !IMPORTANT;
+  transition: all .8s linear;
 }
 
 .darkModeDownload {
@@ -226,6 +225,6 @@ footer h5 {
   color: #333 !IMPORTANT;
 }
 img:hover {
-  box-shadow: 0px 0px 7px 3px #666666;
+  box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.2);
   transition: all 0.7s;
 }
